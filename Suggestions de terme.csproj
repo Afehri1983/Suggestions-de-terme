@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Suggestions de terme.Tests\**" />
+    <EmbeddedResource Remove="Suggestions de terme.Tests\**" />
+    <None Remove="Suggestions de terme.Tests\**" />
+  </ItemGroup>
+
 </Project>

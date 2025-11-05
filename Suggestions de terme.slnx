@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Suggestions de terme.csproj" />
+  <Project Path="Suggestions de terme.Tests\Suggestions de terme.Tests.csproj" />
 </Solution>

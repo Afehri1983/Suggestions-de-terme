@@ -107,10 +107,34 @@ La classe `SuggestionProvider` implémente l'algorithme :
    - Priorité aux termes de longueur similaire au terme recherché
    - Puis tri alphabétique
 
+## Tests
+
+Le projet inclut une suite de tests unitaires utilisant xUnit. Les tests couvrent :
+
+- Correspondances exactes
+- Correspondances avec différences
+- Algorithme de fenêtre glissante
+- Exclusion des candidats trop courts
+- Insensibilité à la casse
+- Normalisation des caractères spéciaux
+- Cas limites (null, chaînes vides)
+- Tri par score, longueur et ordre alphabétique
+
+### Exécuter les tests
+
+```bash
+dotnet test
+```
+
+### Structure des tests
+
+Les tests sont organisés dans le projet `Suggestions de terme.Tests` avec la classe `SuggestionProviderTests` qui contient 13 cas de test couvrant tous les aspects de l'algorithme.
+
 ## Technologies
 
 - .NET 8.0
 - C#
+- xUnit (pour les tests)
 
 ## Auteur
 
